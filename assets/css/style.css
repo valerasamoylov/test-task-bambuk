@@ -1,18 +1,13 @@
 .section:nth-child(2) {
   background-image: url("../../img/section2.jpg");
   background-size: cover;
+  background-position: center center;
 }
 
-.slider {
-  max-width: 1000px;
-  margin: 0 auto;
-}
 .slick-slide {
   margin: 0 5px;
 }
-.slick-list {
-  margin: 0px -5px 0px -5px;
-}
+
 button.slick-next,
 button.slick-next:hover {
   position: absolute;
@@ -39,4 +34,7 @@ button.slick-prev:hover {
 }
 .slider img {
   height: 324px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
 }

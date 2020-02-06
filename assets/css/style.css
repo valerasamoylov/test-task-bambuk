@@ -20,8 +20,6 @@ button.slick-next:hover {
   right: 54px;
   width: 47px;
   height: 75px;
-  background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
-  background-size: 95px;
 }
 button.slick-prev,
 button.slick-prev:hover {
@@ -31,9 +29,6 @@ button.slick-prev:hover {
   z-index: 1;
   width: 47px;
   height: 75px;
-  background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
-  background-size: 95px;
-  background-position-x: right;
 }
 .slick-prev:before,
 .slick-next:before {

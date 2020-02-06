@@ -4,7 +4,8 @@ $(document).ready(function() {
   $(".wrapper").fullpage({
     autoScrolling: true,
     navigation: true,
-    navigationPosition: "left"
+    navigationPosition: "left",
+    dragAndMove: true
   });
 });
 

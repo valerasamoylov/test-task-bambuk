@@ -32,11 +32,12 @@ button.slick-prev:hover {
   line-height: inherit;
   font-weight: bold;
 }
+
 .slider img {
   height: 324px;
   width: 100%;
   object-fit: cover;
-  object-position: 0 0;
+  font-family: "object-fit: cover;";
 }
 
 .wrapper {

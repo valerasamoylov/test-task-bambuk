@@ -9,6 +9,12 @@ $(document).ready(function() {
   });
 });
 
+// call Polyfill of object-fit for IE
+
+$(function() {
+  objectFitImages();
+});
+
 // slider
 
 $(document).ready(function() {
@@ -24,8 +30,7 @@ $(document).ready(function() {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
-          dots: true
+          infinite: true
         }
       },
       {
